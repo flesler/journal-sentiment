@@ -1,0 +1,22 @@
+{
+  "name": "journal-sentiment",
+  "author": "Ariel Flesler <aflesler@gmail.com>",
+  "version": "1.0.0",
+  "description": "Run a sentiment analysis over a CSV/TSV file with date+text",
+  "private": true,
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "commander": "2.11.0"
+  },
+  "engines": {
+    "node": "6.x"
+  },
+  "devDependencies": {
+    "eslint": "3.x",
+    "eslint-config-airbnb-base": "7.x",
+    "eslint-plugin-import": "1.x"
+  }
+}
